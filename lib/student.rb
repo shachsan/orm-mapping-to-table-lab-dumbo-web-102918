@@ -27,6 +27,7 @@ class Student
 
   def self.drop_table
     sql = <<-SQL
+      D
     SQL
   end
 end
