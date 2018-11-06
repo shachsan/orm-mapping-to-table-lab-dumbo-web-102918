@@ -20,6 +20,6 @@ class Student
       )
     SQL
 
-    DB[]
+    DB[:conn]
   end
 end
