@@ -40,6 +40,6 @@ class Student
 
     DB[:conn].execute(sql, self.name, self.grade)
     @id = DB[:conn].execute("SELECT id FROM students
-    ORDER BY id DESC LIMIT 1").flatten.
+    ORDER BY id DESC LIMIT 1")
   end
 end
