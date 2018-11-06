@@ -32,7 +32,8 @@ class Student
     DB[:conn].execute(sql)
   end
   def save
-    sql = <<-SQL S
+    sql = <<-SQL
+    SQL
 
   end
 end
