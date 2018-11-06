@@ -37,7 +37,7 @@ class Student
       VALUES (?,?)
     SQL
 
-    DB[:conn]
+    DB[:conn].execute
 
   end
 end
