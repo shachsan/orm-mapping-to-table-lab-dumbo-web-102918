@@ -40,6 +40,6 @@ class Student
 
     DB[:conn].execute(sql, self.name, self.grade)
     @id = DB[:conn].execute("SELECT id FROM students
-    ORDER BY ")
+    ORDER BY id DESCC")
   end
 end
