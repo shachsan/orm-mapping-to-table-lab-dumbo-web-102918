@@ -29,6 +29,6 @@ class Student
     sql = <<-SQL
       DROP TABLE students
     SQL
-    
+    DB[]
   end
 end
